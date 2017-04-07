@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WorstPunJokes</string>
+    <string name="joke_hint">E.g. A raisen, a peanut, and an M&amp;M walk into a party...</string>
+</resources>
