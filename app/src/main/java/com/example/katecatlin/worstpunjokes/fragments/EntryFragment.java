@@ -29,7 +29,6 @@ public class EntryFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_entry, parent, false);
-        return v;
 
         titleField = (EditText)v.findViewById(R.id.entry_title);
         titleField.addTextChangedListener(new TextWatcher() {
@@ -49,5 +48,6 @@ public class EntryFragment extends Fragment {
 
             }
         });
+        return v;
     }
 }
